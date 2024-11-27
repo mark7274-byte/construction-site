@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    align-items: center;
+}
+header .logo {
+    padding: 0.3rem;
+    background-color: rgb(255, 208, 0);
+    padding-right: 16rem;
+    align-items: center;
+}
+header .logo p {
+  font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+  font-size: 26px;
+}
+header .logo img {
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+header nav {
+   margin-right: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+}
+.background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('pexels-asphotograpy-224924.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -2;
+  }
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 20px;
+}
+.hero .cta-button {
+    background: #f1c40f;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.point {
+    margin-top: 20px;
+ align-items: center;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-color: rgb(255, 254, 254);
+    font-size: 17px;
+}
+#services {
+    background-color: rgb(255, 254, 254);
+}
+#portfolio {
+    background-color: rgb(255, 254, 254);
+    
+}
+#contact {
+    background-color: rgb(255, 254, 254);
+}
+#testimonials {
+    background-color: rgb(255, 254, 254);
+}
+.service-item {
+    margin: 20px 0;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 15px;
+    width: 30%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #f1c40f;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d1a400;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
